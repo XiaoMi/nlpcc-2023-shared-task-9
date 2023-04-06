@@ -105,3 +105,6 @@ We provide two files, **train.jsonl** and **dev.jsonl**, each line in the file r
 
 SUBMISSION Deadline: 2023.05.20
 
+## Licence
+* Our dataset is licensed under the CC BY 4.0 and our code is licensed under the Apache License 2.0.
+
