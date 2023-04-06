@@ -8,7 +8,7 @@ User Feedback Prediciton and Response Generation
 
 Online conversation systems usually have a user feedback mechanism, such as like and dislike buttons. When a user is satisfied with the response, he/she can click the like button, and vice versa for the dislike button. The feedback signal represents the user's vote on the quality of the response and also represents his/her preference. It is a worthwhile direction to study and invest in how to use this signal to improve the quality of the conversation system. This task includes two tracks:
 
-● Track 1: Prediction of likes and dislikes: Given a (query, reply) pair, predict the probabilities of likes, dislikes, and no feedback.
+● Track 1: Prediction of likes and dislikes: Given a (query, reply) pair, predict the probabilities of likes, dislikes.
 
 ● Track 2: Conversation generation based on likes and dislikes: Incorporate like and dislike data into conversation generation to improve response quality and obtain high likes.
 
