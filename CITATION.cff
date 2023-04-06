@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Liu"
+  given-names: "Wei"
+  orcid: 
+- family-names: "Dong"
+  given-names: "shuang"
+  orcid: 
+- family-names: "Teng"
+  given-names: "HanLin"
+  orcid: 
+- family-names: "Zhao"
+  given-names: "Kang"
+  orcid: 
+title: "NLPCC-2023-Shared-Task-9"
+version: 1.0.0
+doi: 
+date-released: 2023-04-06
+url: "https://github.com/xiaomi/NLPCC-2023-Shared-Task-9"
