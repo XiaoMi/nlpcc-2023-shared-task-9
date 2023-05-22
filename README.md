@@ -87,11 +87,11 @@ We provide two files, **train.jsonl** and **dev.jsonl**, each line in the file r
 ### LeaderBoard
 
 #### Track 1
+For Track 1, there are 1500 test samples. Each team can submit their results once per day. The leaderboard will be updated daily on both GitHub and the WeChat group.
 
 
 #### Track 2
-
-
+For Track 2, there are 500 test samples. Each team will have one evaluation opportunity from May 22nd to May 28th. The leaderboard will be updated accordingly. The schedule for subsequent evaluations is yet to be determined.
 
 
 
@@ -102,8 +102,24 @@ We provide two files, **train.jsonl** and **dev.jsonl**, each line in the file r
 #### 2023.04.025 add evaluation
 
 *SUBMISSION FORMAT:*
-
-
+#### Track 1
+For Track 1, the test dataset is named ```datasets_test_track1.jsonl```, which consists of 1500 samples. Participants are required to submit their results with the same number of rows as the test dataset. Each row should contain multiple scores separated by tabs (\t). The number of scores in each row represents the number of replies corresponding to the query. The required format is as follows:
+```
+0.6
+0.6
+...
+0.6\t0.6\t0.6
+```
+For each question-answer pair, a probability distribution of 0 and 1 scores is computed based on the ratio of likes and dislikes. The scores are calculated using the formula 1/(1+kl), where kl represents the Kullback-Leibler divergence between the predicted probability distribution and the ground truth. Please refer to the ```evaluation.py``` file for more detailed information.
+#### Track 2
+For Track 2, the test dataset is named ```datasets_test_track2.jsonl```, which contains 500 samples. Participants are also required to submit their results with the same number of rows as the test dataset. Each row should contain the reply results corresponding to the query. The format should be as follows:
+```
+不喜欢
+在呢
+...
+不好意思，刚刚走神了
+```
+We will use manual annotations to assign scores to each reply, with possible scores of 0 (unlikely to be liked), 1 (potentially liked), and 2 (highly likely to be liked). The final score will be the average of these scores.
 ## Licence
 * Our dataset is licensed under the CC BY 4.0 and our code is licensed under the Apache License 2.0.
 
