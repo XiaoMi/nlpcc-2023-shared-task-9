@@ -101,7 +101,7 @@ For Track 2, there are 500 test samples. Each team will have one evaluation oppo
 #### 2023.04.04 add data
 #### 2023.04.025 add evaluation
 
-*SUBMISSION FORMAT:*
+### SUBMISSION FORMAT
 #### Track 1
 For Track 1, the test dataset is named ```datasets_test_track1.jsonl```, which consists of 1500 samples. Participants are required to submit their results with the same number of rows as the test dataset. Each row should contain multiple scores separated by tabs (\t). The number of scores in each row represents the number of replies corresponding to the query. The required format is as follows:
 ```
