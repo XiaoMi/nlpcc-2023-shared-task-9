@@ -95,12 +95,6 @@ For Track 2, there are 500 test samples. Each team will have one evaluation oppo
 
 
 
-### UPDATE
-
-#### 2023.03.22 init
-#### 2023.04.04 add data
-#### 2023.04.025 add evaluation
-
 ### SUBMISSION FORMAT
 #### Track 1
 For Track 1, the test dataset is named ```datasets_test_track1.jsonl```, which consists of 1500 samples. Participants are required to submit their results with the same number of rows as the test dataset. Each row should contain multiple scores separated by tabs (\t). The number of scores in each row represents the number of replies corresponding to the query. The required format is as follows:
@@ -120,6 +114,14 @@ For Track 2, the test dataset is named ```datasets_test_track2.jsonl```, which c
 不好意思，刚刚走神了
 ```
 We will use manual annotations to assign scores to each reply, with possible scores of 0 (unlikely to be liked), 1 (potentially liked), and 2 (highly likely to be liked). The final score will be the average of these scores.
+
+### UPDATE
+
+#### 2023.03.22 init
+#### 2023.04.04 add data
+#### 2023.04.25 add evaluation
+#### 2023.05.22 add test data
+
 ## Licence
 * Our dataset is licensed under the CC BY 4.0 and our code is licensed under the Apache License 2.0.
 
