@@ -87,11 +87,31 @@ We provide two files, **train.jsonl** and **dev.jsonl**, each line in the file r
 ### LeaderBoard
 
 #### Track 1
-For Track 1, there are 1500 test samples. Each team can submit their results once per day. The leaderboard will be updated daily on both GitHub and the WeChat group.
+Final result：
+<table>
+  <tr> <th>排名 </th><th>队伍名</th><th>机构</th><th>分数</th></tr>
+  <tr> <th>1 </th> <td>师弟师妹带带我 </td><td>大连理工大学、吉林大学 </td><td>92.13 </td></tr>
+  <tr> <th>2 </th> <td>dunnlp </td><td>易盾 </td><td>92.00 </td></tr>
+  <tr> <th>3 </th> <td>zut </td><td>中原工学院 </td><td>91.73 </td></tr>
+  <tr> <th>4 </th> <td>YNU-HPCC </td><td>云南大学 </td><td>91.63 </td></tr>
+  <tr> <th>5 </th> <td>HTDZNLP </td><td>杭州航天电子技术有限公司 </td><td>91.40 </td></tr>
+  <tr> <th>6 </th> <td>666 </td><td>浙江工业大学 </td><td>91.24 </td></tr>
+  <tr> <th>7 </th> <td>Tryourbest classification </td><td>苏州大学 </td><td>90.94 </td></tr>
+  <tr> <th>8 </th> <td>little_spice </td><td>天津科技大学 </td><td>90.72 </td></tr>
+</table>
 
 
 #### Track 2
-For Track 2, there are 500 test samples. Each team will have one evaluation opportunity from May 22nd to May 28th. The leaderboard will be updated accordingly. The schedule for subsequent evaluations is yet to be determined.
+Final reuslt:
+<table>
+  <tr> <th>排名 </th><th>队伍名</th><th>机构</th><th>分数</th></tr>
+  <tr> <th>1 </th> <td>YNU-HPCC </td><td>云南大学 </td><td>1.656 </td></tr>
+  <tr> <th>2 </th> <td>Devs </td><td>东北大学 </td><td>1.562 </td></tr>
+  <tr> <th>3 </th> <td>little -spice </td><td>天津科技大学 </td><td>1.409 </td></tr>
+  <tr> <th>4 </th> <td>666 </td><td>浙江工业大学 </td><td>1.388 </td></tr>
+  <tr> <th>5 </th> <td>ZUT </td><td>中原工学院 </td><td>1.214 </td></tr>
+  <tr> <th>6 </th> <td>HTDZNLP </td><td>杭州航天电子技术有限公司 </td><td>1.202 </td></tr>
+</table>
 
 
 
