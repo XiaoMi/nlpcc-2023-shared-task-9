@@ -107,7 +107,7 @@ Final reuslt:
   <tr> <th>排名 </th><th>队伍名</th><th>机构</th><th>分数</th></tr>
   <tr> <th>1 </th> <td>YNU-HPCC </td><td>云南大学 </td><td>1.656 </td></tr>
   <tr> <th>2 </th> <td>Devs </td><td>东北大学 </td><td>1.562 </td></tr>
-  <tr> <th>3 </th> <td>little -spice </td><td>天津科技大学 </td><td>1.409 </td></tr>
+  <tr> <th>3 </th> <td>little_spice </td><td>天津科技大学 </td><td>1.409 </td></tr>
   <tr> <th>4 </th> <td>666 </td><td>浙江工业大学 </td><td>1.388 </td></tr>
   <tr> <th>5 </th> <td>ZUT </td><td>中原工学院 </td><td>1.214 </td></tr>
   <tr> <th>6 </th> <td>HTDZNLP </td><td>杭州航天电子技术有限公司 </td><td>1.202 </td></tr>
